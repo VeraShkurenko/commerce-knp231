@@ -1,0 +1,40 @@
+.product-info {
+    background-color: #1d1d1d;
+}
+
+.rec-box
+{
+  position: relative;
+}
+.recommended-container {
+    overflow-x: auto;
+    margin:5%;
+    scrollbar-width:none;
+}
+
+.recommended-container .product-card {
+    width: 25%;
+  
+}
+
+.recommended-row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 120%;
+}
+
+.scroll {
+    position:absolute;
+    padding: 1em;
+    background-color: #888888aa;
+    position: absolute;
+    top: 45%;
+    border-radius: 15px;
+    z-index: 5;
+}
+.product-cart-error {
+    margin-top: 8px;
+    color: #d32f2f;
+    font-size: 14px;
+}
